@@ -1,0 +1,45 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Secrets / Config
+.env
+.env.local
+*.secret
+
+# Migrations Cache
+migrations/__pycache__/
+migrations/versions/__pycache__/
+migrations/alembic.ini
+
+# Database
+instance/
+*.sqlite3
+*.db
+*.sql
+*.sql.gz
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Logs & Temp Files
+logs/
+*.log
+tmp/
